@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.sidebar .ant-layout-sider-children {
+  display: flex;
+}
+
+.f3IconMenu>li {
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: auto !important;
+  padding-left: 16px !important;
+}
+
+.f3IconMenu>li .ant-menu-title-content {
+  margin-left: 0 !important;
+}
